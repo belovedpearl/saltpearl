@@ -33,3 +33,9 @@ Sections of development was coordinated using different milestones to aid proper
 Due to the nature of the project and the vision of the organisation to be represented, the idea of the website was first drafted using paper and pencil which was later represented using wireframes creating a view of all pages concieved and the details thought about.
 
 Wireframes are made with Balsamiq.
+
+---
+# Bugs
+
+The following bugs were documented during the build up of the website also including how they were fixed.
+
