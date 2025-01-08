@@ -26,3 +26,10 @@ The project was managed using github [project board](https://github.com/users/be
 
 Sections of development was coordinated using different milestones to aid proper actualization of the targets. Project milestones setup is found [here](https://github.com/belovedpearl/saltpearl/milestones)
 
+---
+
+# Wireframes
+
+Due to the nature of the project and the vision of the organisation to be represented, the idea of the website was first drafted using paper and pencil which was later represented using wireframes creating a view of all pages concieved and the details thought about.
+
+Wireframes are made with Balsamiq.
