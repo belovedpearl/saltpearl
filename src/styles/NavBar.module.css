@@ -1,0 +1,34 @@
+.NavBar {
+    background-color:rgb(253, 251, 251);
+  }
+  
+.NavLink {
+    /* color: #00AEEF !important; */
+    color: black !important;
+    padding: 5px;
+}
+/* .Active {
+  text-decoration: underline #ff4136 6px;
+} */
+.LinkContainer:hover{
+  color: #1b1464;
+  transition: color ease-in-out 0.3s;
+}
+.ToggleButton{
+  background-color: #00AEEF;
+  width: fit-content;
+}
+
+@media (max-width: 768px) {
+   .NavLinkText{
+    font-size: 15px;
+   }
+   .HomeIcon{
+    margin-left: 2px;
+   }
+   .AddandSign{
+    display: flex;
+    flex-direction: row;
+    margin-right: 30px;
+   }
+}
