@@ -39,3 +39,19 @@ Wireframes are made with Balsamiq.
 
 The following bugs were documented during the build up of the website also including how they were fixed.
 
+---
+## Frameworks and Web Applications
+
+The following were used in the buildup of the website.
+
+* [React Bootstrap](https://react-bootstrap-v4.netlify.app) - A css framework by bootstrap to be used by react projects.
+
+* [Github](https://github.com) - Used to host the repository, store codes and commit history and also manage the project board.
+
+* [Coolors](https://coolors.co/) - Used to pick the colour scheme of the website
+
+* [Favicon](https://favicon.io) - Used to create the favicon
+
+* 
+
+
