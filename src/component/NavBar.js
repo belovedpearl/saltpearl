@@ -77,7 +77,7 @@ const NavBar = () => {
                                 </div>
                         </NavLink>
                         <NavLink 
-                                // exact to = "testi" 
+                                exact to = "testimonials" 
                                 className={`${styles.NavLink} mr-2 ${styles.HomeIcon}`} 
                                 activeClassName = {styles.Active} 
                             >
@@ -87,7 +87,7 @@ const NavBar = () => {
                                 </div>
                         </NavLink> 
                         <NavLink 
-                                // exact to = "support" 
+                                exact to = "support" 
                                 className={`${styles.NavLink} mr-2 ${styles.HomeIcon}`} 
                                 activeClassName = {styles.Active} 
                             >
