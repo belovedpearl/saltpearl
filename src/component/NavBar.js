@@ -1,5 +1,5 @@
 import React from 'react'
-import {Nav, Navbar, NavDropdown } from 'react-bootstrap';
+import {Nav, Navbar } from 'react-bootstrap';
 import Container from 'react-bootstrap/Container';
 import styles from '../styles/NavBar.module.css'
 import { FaHome } from "react-icons/fa";
@@ -7,7 +7,7 @@ import { IoIosContact } from "react-icons/io";
 import { HiOutlineInformationCircle } from "react-icons/hi";
 import { BsChatQuote } from 'react-icons/bs';
 import { FaDonate } from "react-icons/fa";
-// import logo from "../assets/logo1.png"
+import logo from "../assets/logo.jpg"
 import { NavLink } from 'react-router-dom';
 
 
@@ -20,25 +20,23 @@ const NavBar = () => {
                 fixed='top'
             >
                 <Container>
-                <Nav className="text-left">
-                        <div 
-                            className="d-flex align-items-center justify-content-between w-100"
-                        >
-                            <div>
-                                <NavLink to="/" >
-                                    <Navbar.Brand>
-                                        <img 
-                                            // src= {logo} 
-                                            src = ''
-                                            alt='Brand logo' 
-                                            height='40'
-                                            
-                                        />
-                                    </Navbar.Brand>
-                                </NavLink>
+                    <Nav className="text-left">
+                            <div 
+                                className="d-flex align-items-center justify-content-between w-100"
+                            >
+                                <div>
+                                    <NavLink to="/" >
+                                        <Navbar.Brand>
+                                            <img 
+                                                src= {logo} 
+                                                alt='Brand logo'
+                                                height='43'   
+                                            />
+                                        </Navbar.Brand>
+                                    </NavLink>
+                                </div>
                             </div>
-                        </div>
-                    </Nav>
+                        </Nav>
                     <Navbar.Toggle 
                         aria-controls="basic-navbar-nav" 
                         className={styles.ToggleButton}
